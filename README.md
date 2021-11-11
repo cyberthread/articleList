@@ -39,4 +39,4 @@ As part of the grid-template-columns notation you will also need:
 
 ## Submission
 - URL to live site on Blackboard
-- Screenshots of valid HTML and CSS on Blackboard
+- Show your work to Instructor or TA in class for immediate feedback
