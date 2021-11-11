@@ -5,7 +5,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
+    font-weight: normaartl;
 }
 
 /* TYPOGRAPHY */
@@ -53,7 +53,7 @@ footer p {
 main {
     padding: 0 1rem 1rem 1rem;
 }
-section {
+article {
     background-color: #eeeeee;
     position: relative; /* needed to position the button in bottom right*/
     padding-bottom: 2rem; /* adds space for button */
@@ -81,8 +81,8 @@ img { /* contains images to their parent element */
     width: 100%;
 }
 
-/* GRID LAYOUT */
-/* your code goes here. You need one selector and 3 property rules */
+/* Article List LAYOUT */
+
 
 
 /* BUTTONS */
