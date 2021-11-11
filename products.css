@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* TYPOGRAPHY */
+
+html {
+    font-family: 'Muli', Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4em;
+    
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 4rem;
+     margin: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 1rem 0 2rem;
+    color: #7E0C7A;
+}
+
+h3 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #7E0C7A;
+}
+
+.description {
+    padding: 1rem;
+}
+
+.description p {
+    margin-bottom: .5rem;
+}
+
+footer p {
+     margin: 1rem;
+}
+
+
+/* LAYOUT */
+main {
+    padding: 0 1rem 1rem 1rem;
+}
+section {
+    background-color: #eeeeee;
+    position: relative; /* needed to position the button in bottom right*/
+    padding-bottom: 2rem; /* adds space for button */
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+header, footer {
+    background-color: #7E0C7A;
+    color: white;
+    padding: 2rem 0;
+    clear: right;
+}
+
+.articleList, h2 {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img { /* contains images to their parent element */
+    display: block;
+    width: 100%;
+}
+
+/* GRID LAYOUT */
+/* your code goes here. You need one selector and 3 property rules */
+
+
+/* BUTTONS */
+
+button {
+    padding: .5rem;
+    border-radius: 10px;
+    background-color: #7E0C7A;
+    color: white;
+    position: absolute; /* places button where we want it in the section */
+    bottom: 1rem;
+    right: 1rem;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 66rem){
+   /* TYPOGRAPHY */
+    html {
+        font-size: 1.2rem;
+    }
+    
+    /* LAYOUT */
+    .articleList, h2 {
+        max-width: 80%;
+    }
+    
+}
